@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: poppins;
 }
+/* AJUSTE DE TORNILLOS */
+.t1{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 body{
     padding: 40px;
     overflow-x: hidden;
@@ -25,7 +30,19 @@ body{
     box-shadow: 1px 2px 20px rgba(40, 121, 197, 0.6);
     transform: scale(1.04, 1.04);
 }
-
+.info {
+    font-size: 100%;
+    margin-right: 30%;
+    margin-left: 5%;
+    transition: all .3s ease-in-out;
+    /* font-weight:100 !important; */
+}
+.info:hover {
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    }
 .container{
     display: grid;
     grid-template-areas: 

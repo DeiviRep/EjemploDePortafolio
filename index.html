@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+    <!-- animation -->
+    <link rel="stylesheet" href="./node_modules/font-awesome-animation/css/font-awesome-animation.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -20,11 +22,11 @@
                 <div class="main-header">
                     <img class="perfil" src="./img/perfil.jfif" alt="Jhon Image">
                     <h4 class="name">Jhon <span>Doe</span></h4>
-                    <p>Web Developer</p>
+                    <p>Web Developer <i class="fa fa-angellist faa-burst fa-1x animated" style="font-size: 20px;"></i></p>
                     <div class="social">
-                        <span><a href="#"><i style="color:#3b5998;" class="fa fa-facebook-square"></i></a></span>
-                        <span><a href="#"><i style="color:#2eb7bd;" class="fa fa-twitter"></i></a></span>
-                        <span><a href="#"><i style="color:rgb(228, 64, 95);" class="fa fa-instagram"></i></a></span>
+                        <span><a href="#"><i style="color:#3b5998;" class="fa fa-facebook-square faa-tada animated"></i></a></span>
+                        <span><a href="#"><i style="color:#2eb7bd;" class="fa fa-twitter faa-tada animated"></i></a></span>
+                        <span><a href="#"><i style="color:rgb(228, 64, 95);" class="fa fa-instagram faa-tada animated"></i></a></span>
                     </div>
                 </div>
                 <address>
@@ -57,7 +59,7 @@
                     </div>
                     <div class="nav1">
                         <ul>
-                            <li class="close" onclick="closeNav()">CERRAR<i class="fa fa-arrow-left"></i></li>
+                            <li class="close" onclick="closeNav()">CERRAR<i class="fa fa-arrow-left faa-passing faa-reverse animated"></i></li>
                             <li class="l1"><a class="a1" href="#">Resume</a></li>
                             <li class="l1"><a class="a1" href="#">Portafolio</a></li>
                             <li class="l1"><a class="a1" href="#">About Me</a></li>
@@ -78,7 +80,7 @@
                     <div class="card-section">
                         <div class="web-card card">
                             <div class="card-icon">
-                                <span><i class="fa fa-laptop"></i></span>
+                                <span><i class="fa fa-laptop faa-float animated"></i></span>
                             </div>
                             <div class="card-info">
                                 <h3>Web Development</h3>
@@ -89,7 +91,7 @@
                         </div>
                         <div class="web-card card">
                             <div class="card-icon">
-                                <span><i class="fa fa-mobile"></i></span>
+                                <span><i class="fa fa-mobile faa-ring animated"></i></span>
                             </div>
                             <div class="card-info">
                                 <h3>Responsive Design</h3>
@@ -100,7 +102,9 @@
                         </div>
                         <div class="web-card card">
                             <div class="card-icon">
-                                <span><i class="fa fa-cogs"></i></span>
+                                <span class="cogs slow-ani">
+                                    <i class="fa fa-cog fa-spin"></i>
+                                </span>
                             </div>
                             <div class="card-info">
                                 <h3>Software Development</h3>
@@ -111,7 +115,7 @@
                         </div>
                         <div class="web-card card">
                             <div class="card-icon">
-                                <span><i class="fa fa-comments"></i></span>
+                                <span><i class="fa fa-comments faa-passing animated"></i></span>
                             </div>
                             <div class="card-info">
                                 <h3>Comunication</h3>
@@ -127,5 +131,6 @@
     </div>
     
     <script src="./js/script.js"></script>
+    
 </body>
 </html>
